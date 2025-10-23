@@ -25,4 +25,9 @@ public class HomeController {
     public String index(){
         return "index";
     }    
+
+     @GetMapping("/general-chat")
+    public String generalChat() {
+        return "generalChat"; 
+    }
 }
